@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
-import {Stack} from './Drawer/Stack'
+import {Drawer} from './Drawer'
 
 const AppRoutes: React.FC = () => {
     return (
       <NavigationContainer >
-          <Stack/>
+          <Drawer/>
       </NavigationContainer>
 )}
 

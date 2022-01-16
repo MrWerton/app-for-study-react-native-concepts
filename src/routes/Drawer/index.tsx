@@ -20,7 +20,7 @@ export type ParamsProps = {
 };
 const {Screen, Navigator} = createDrawerNavigator<ParamsProps>();
 
-export const Stack:React.FC = () => {
+export const Drawer:React.FC = () => {
     return (
         <Navigator
             screenOptions={({ navigation }) => ({
